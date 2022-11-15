@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Android-Project</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="amazing_service">Amazing (20%)</string>
+    <string name="good_service">Good (18%)</string>
+    <string name="ok_service">Okay (15%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="calculate">Calculate</string>
+    <string name="title">Title of App</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <string name="lfl_about_button">Sobre</string>
+
+    <!-- about Luiz Fernando Leite -->
+    <string name="lfl_about_name">Luiz Fernando Leite</string>
+    <string name="lfl_about_resume">Descrição</string>
+    <string name="lfl_about_resume_text">Analista de Suporte com habilidade de resolução de problemas e incidentes de TI. Profissional com foco na satisfação do cliente, orientado a resultados e com forte iniciativa. Possuo grande habilidade para aprender novos processos e ajudar as equipes de Suporte Técnico a atingirem suas metas e manterem o ambiente de TI estável e com qualidade.</string>
+    <string name="lfl_about_education">Educação</string>
+    <string name="lfl_about_xp">Experiência</string>
+    <string name="lfl_about_webDev">Desenvolvedor Web</string>
+    <string name="lfl_about_webDevDesc">Como freelancer atuei como desenvolvedor web para acorretora de criptomoedas Bullgain Exchange, construíndo o website da empresa utilizando Html, Css e JavaScript.</string>
+    <string name="lfl_about_suppIT">Analista de Suporte</string>
+    <string name="lfl_about_suppITDesc">Atuei no suporte técnico para pequenos clientes, gerenciando as estações de trabalho Windows 7 e 10, sistemas de wifi e gerenciamento da rede. Realizei a instalação e configuração de computadores e periféricos, assim como do pacote Office.</string>
+    <string name="lfl_about_curiosities">Curiosidades</string>
+    <string name="lfl_about_curiositiesDesc1">No ano de 2018 lancei um álbum com minha banda chamada Vulgo Esperto. Com uma proposta despretenciosa, nosso estilo se encontra entre uma pegada punk skate rock e rap. Ouça abaixo alguns trechos de algumas músicas.</string>
+    <string name="lfl_about_curiositiesDesc2">Caso queira ouvir o álbum completo, ele encontra-se disponível em todas as plataformas digitais de distribuição, ouça em: https://open.spotify.com/album/7yuvU4s00JcxtGTVCaRtA0?si=Yx4W7s1TT-WCUNaQ660lgw&amp;utm_source=copy-link </string>
+    <string name="lfl_about_curiositiesDesc3">Curiosidades3</string>
+    <string name="lfl_about_hobbies">Hobbies</string>
+    <string name="lfl_about_hobbiesDesc">Há várias coisas que gosto de fazer, como jogar alguns jogos, ouvir um audiobook, assistir animes, filmes e séries. Mas, sem dúvidas, tocar minhas músicas preferidas é meu maior hobbie. Seja violão ou guitarra, todo dia estou tocando alguma coisa no meu tempo livre. </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
