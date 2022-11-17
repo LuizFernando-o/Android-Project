@@ -1,15 +1,5 @@
 <resources>
-    <string name="app_name">Android-Project</string>
-    <string name="cost_of_service">Cost of Service</string>
-    <string name="how_was_the_service">How was the service?</string>
-    <string name="amazing_service">Amazing (20%)</string>
-    <string name="good_service">Good (18%)</string>
-    <string name="ok_service">Okay (15%)</string>
-    <string name="round_up_tip">Round up tip?</string>
-    <string name="calculate">Calculate</string>
-    <string name="title">Title of App</string>
-    <string name="tip_amount">Tip Amount: %s</string>
-    <string name="lfl_about_button">Sobre</string>
+    <string name="app_name">Portal do Potter</string>
 
     <!-- about Luiz Fernando Leite -->
     <string name="lfl_about_name">Luiz Fernando Leite</string>
@@ -35,22 +25,78 @@
 
 
 
+    <!-- strings Characters -->
+    <string name="title_character_1">Harry Potter</string>
+    <string name="descr_character_1">Casa: Grifinória\nData de nascimento: 31/07/1980</string>
+    <string name="title_character_2">Hermione Granger</string>
+    <string name="descr_character_2">Casa: Grifinória\nData de nascimento: 19/09/1979</string>
+    <string name="title_character_3">Ron Weasley</string>
+    <string name="descr_character_3">Casa: Grifinória\nData de nascimento: 01/03/1980</string>
+    <string name="title_character_4">Rubeus Hagrid</string>
+    <string name="descr_character_4">Casa: Grifinória\nData de nascimento: 06/12/1928</string>
+    <string name="title_character_5">Draco Malfoy</string>
+    <string name="descr_character_5">Casa: Sonserina\nData de nascimento: 05/06/1980</string>
+    <string name="title_character_6">Lucius Malfoy</string>
+    <string name="descr_character_6">Casa: Sonserina\nData de nascimento: 09/09/1954</string>
+    <string name="title_character_7">Bellatrix Lestrange</string>
+    <string name="descr_character_7">Casa: Sonserina\nData de nascimento: 05/04/1951</string>
+    <string name="title_character_8">Arthur Weasley</string>
+    <string name="descr_character_8">Casa: Grifinória\nData de nascimento: 06/02/1950</string>
+    <string name="title_character_9">Cedric Diggory</string>
+    <string name="descr_character_9">Casa: Lufa-Lufa\nData de nascimento: 01/10/1977</string>
+    <string name="title_character_10">Ginny Weasley</string>
+    <string name="descr_character_10">Casa: Grifinória\nData de nascimento: 11/08/1981</string>
+    <string name="title_character_11">Cho Chang</string>
+    <string name="descr_character_11">Casa: Corvinal\nData de nascimento: 01/01/1979</string>
+    <string name="title_character_12">Neville Longbottom</string>
+    <string name="descr_character_12">Casa: Grifinória\nData de nascimento: 30/07/1980</string>
+    <string name="title_character_13">Minerva McGonagall</string>
+    <string name="descr_character_13">Casa: Grifinória\nData de nascimento: 04/10/1925</string>
+    <string name="title_character_14">Luna Lovegood</string>
+    <string name="descr_character_14">Casa: Corvinal\nData de nascimento: 13/02/1981</string>
+    <string name="title_character_15">Remus Lupin</string>
+    <string name="descr_character_15">Casa: Grifinória\nData de nascimento: 10/03/1960</string>
+    <string name="title_character_16">Severus Snape</string>
+    <string name="descr_character_16">Casa: Sonserina\nData de nascimento: 09/01/1960</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_characters">Personagens</string>
+    <string name="title_spells">Magias</string>
+    <string name="title_about">Sobre</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- strings spells -->
+    <string name="title_spell_1">Wingardium Leviosa</string>
+    <string name="descr_spell_1">Faz um objeto levitar. Mas lembre-se do que Hermione disse: É Levi-o-sa e não Levio-sá</string>
+    <string name="title_spell_2">Alohomora</string>
+    <string name="descr_spell_2">Desbloqueia objetos como portas, baús, fechaduras em geral.</string>
+    <string name="title_spell_3">Petrificus Totalus</string>
+    <string name="descr_spell_3">Congela ou petrifica temporariamente o corpo do alvo.</string>
+    <string name="title_spell_4">Finite Incantatem</string>
+    <string name="descr_spell_4">Um contra-feitiço geral que é usado para reverter ou anular encantos já lançados.</string>
+    <string name="title_spell_5">Revelio</string>
+    <string name="descr_spell_5">Revela objetos ocultos, mensagens, coisas invisíveis e passagens ou quaisquer outras mensagens escritas secretamente.</string>
+    <string name="title_spell_6">Arresto Momentum</string>
+    <string name="descr_spell_6">Feitiço que pode ser usado por uma bruxa ou bruxo para diminuir a velocidade de um objeto.</string>
+    <string name="title_spell_7">Expelliarmus</string>
+    <string name="descr_spell_7">Força um oponente a largar o que estiver em sua posse.</string>
+    <string name="title_spell_8">Vera Verto</string>
+    <string name="descr_spell_8">Feitiço de transfiguração usado para transformar um animal em um cálice de água.</string>
+    <string name="title_spell_9">Lumos</string>
+    <string name="descr_spell_9">Ilumina a varinha do lançador.</string>
+    <string name="title_spell_10">Silencio</string>
+    <string name="descr_spell_10">Silencia o alvo.</string>
+    <string name="title_spell_11">Arania Exumai</string>
+    <string name="descr_spell_11">Feitiço usado para explodir Acromântulas ou outras aranhas grandes.</string>
+    <string name="title_spell_12">Reparo</string>
+    <string name="descr_spell_12">Corrige objetos quebrados.</string>
+    <string name="title_spell_13">Reduccio</string>
+    <string name="descr_spell_13">Encolhe um objeto ampliado ao seu tamanho normal.</string>
+    <string name="title_spell_14">Protego</string>
+    <string name="descr_spell_14">Lança um escudo invisível ao redor do lançador, protegendo contra feitiços e objetos.</string>
+    <string name="title_spell_15">Riddikulus</string>
+    <string name="descr_spell_15">Feitiço usado para desarmar um bicho-papão transformando-o em uma figura cômica.</string>
+    <string name="title_spell_16">Nox</string>
+    <string name="descr_spell_16">Inverte o encanto do lumos, extinguindo a luz de uma varinha.</string>
 
 
 </resources>

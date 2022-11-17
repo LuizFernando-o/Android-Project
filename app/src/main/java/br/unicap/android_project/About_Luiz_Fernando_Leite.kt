@@ -39,7 +39,7 @@ class About_Luiz_Fernando_Leite : AppCompatActivity() {
     }
 
     private fun back() {
-        val back = Intent(this, About::class.java)
+        val back = Intent(this, MainActivity::class.java)
         startActivity(back)
     }
 

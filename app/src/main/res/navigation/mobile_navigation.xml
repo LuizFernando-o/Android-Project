@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="br.unicap.android_project.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_characters"
+        android:name="br.unicap.android_project.CharactersFragment"
+        android:label="@string/title_characters"
+        tools:layout="@layout/fragment_characters" />
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="br.unicap.android_project.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_navigation_about_to_about_Luiz_Fernando_Leite"
+            app:destination="@id/about_Luiz_Fernando_Leite" />
+        <action
+            android:id="@+id/action_navigation_about_to_about_Fabio_Lucas"
+            app:destination="@id/about_Fabio_Lucas" />
+        <action
+            android:id="@+id/action_navigation_about_to_about_Luiz_Fernando_Soares"
+            app:destination="@id/about_Luiz_Fernando_Soares" />
+    </fragment>
+    <activity
+        android:id="@+id/about_Luiz_Fernando_Leite"
+        android:name="br.unicap.android_project.About_Luiz_Fernando_Leite"
+        android:label="About_Luiz_Fernando_Leite" />
+    <activity
+        android:id="@+id/about_Fabio_Lucas"
+        android:name="br.unicap.android_project.About_Fabio_Lucas"
+        android:label="activity_about_fabio_lucas"
+        tools:layout="@layout/activity_about_fabio_lucas" />
+    <activity
+        android:id="@+id/about_Luiz_Fernando_Soares"
+        android:name="br.unicap.android_project.About_Luiz_Fernando_Soares"
+        android:label="activity_about_luiz_fernando_soares"
+        tools:layout="@layout/activity_about_luiz_fernando_soares" />
+    <fragment
+        android:id="@+id/navigation_spells"
+        android:name="br.unicap.android_project.SpellsFragment"
+        android:label="@string/title_spells"
+        tools:layout="@layout/fragment_spells"/>
+</navigation>
