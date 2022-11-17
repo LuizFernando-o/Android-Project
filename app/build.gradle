@@ -4,6 +4,13 @@ plugins {
 }
 
 android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+}
+
+
+android {
     namespace 'br.unicap.android_project'
     compileSdk 32
 

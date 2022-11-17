@@ -28,6 +28,13 @@
     <string name="lfl_about_hobbies">Hobbies</string>
     <string name="lfl_about_hobbiesDesc">Há várias coisas que gosto de fazer, como jogar alguns jogos, ouvir um audiobook, assistir animes, filmes e séries. Mas, sem dúvidas, tocar minhas músicas preferidas é meu maior hobbie. Seja violão ou guitarra, todo dia estou tocando alguma coisa no meu tempo livre. </string>
 
+    <!-- about Fabio Lucas Nascimento Soares -->
+    <string name="fln_about_name">Fabio Lucas</string>
+    <string name="fln_about_resume">Informações Gerais</string>
+    <string name="fln_about_resume_text">Estudante de Ciência da Computação na Universidade Católica de Pernambuco. Atualmente estou estudando e desenvolvendo projetos utilizando as linguagens de programação Python e Java , bem como o uso do banco de dados MySql.</string>
+
+
+
 
 
 
