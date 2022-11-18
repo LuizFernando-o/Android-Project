@@ -5,19 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.unicap.android_project.databinding.ActivityAboutLuizFernandoSoaresBinding
 
-class About_Luiz_Fernando_Soares : AppCompatActivity() {
+    private lateinit var binding: ActivityAboutLuizFernandoSoaresBinding
+        setContentView(R.layout.activity_about_luiz_fernando_soares)
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_fernando)
-        github_fernando.setOnClickListener{
-            openGithub()
-        }
+        binding = ActivityAboutLuizFernandoSoaresBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.backButtonLFS.setOnClickListener { back() }
+    private fun back(){
+        val back = Intent(this, MainActivity::class.java)
+        startActivity(back)
+
+        
     }
-    private fun openGithub(){
-        startActivity( Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Nandincci")))
-    }
-
-
-}
-
