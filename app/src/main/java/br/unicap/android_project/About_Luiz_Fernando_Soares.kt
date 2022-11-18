@@ -7,18 +7,17 @@ import br.unicap.android_project.databinding.ActivityAboutLuizFernandoSoaresBind
 
 class About_Luiz_Fernando_Soares : AppCompatActivity() {
 
-    private lateinit var binding: ActivityAboutLuizFernandoSoaresBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about_luiz_fernando_soares)
-
-        binding = ActivityAboutLuizFernandoSoaresBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        binding.backButtonLFS.setOnClickListener { back() }
-
+        setContentView(R.layout.activity_tela_fernando)
+        github_fernando.setOnClickListener{
+            openGithub()
+        }
     }
-    private fun back(){
-        val back = Intent(this, MainActivity::class.java)
-        startActivity(back)
+    private fun openGithub(){
+        startActivity( Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Nandincci")))
     }
+
+
 }
+
