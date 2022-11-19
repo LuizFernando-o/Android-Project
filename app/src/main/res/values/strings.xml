@@ -20,8 +20,16 @@
 
     <!-- about Fabio Lucas Nascimento Soares -->
     <string name="fln_about_name">Fabio Lucas</string>
-    <string name="fln_about_resume">Informações Gerais</string>
-    <string name="fln_about_resume_text">Estudante de Ciência da Computação na Universidade Católica de Pernambuco. Atualmente estou estudando e desenvolvendo projetos utilizando as linguagens de programação Python e Java , bem como o uso do banco de dados MySql.</string>
+    <string name="fln_about_email">fabiolucs19@gmail.com</string>
+    <string name="fln_about_call">(81) 98582-1623</string>
+    <string name="fln_about_resume">Objetivo</string>
+    <string name="fln_about_resume_text">Minha carreira está no início, mas estou em busca de uma oportunidade para demonstrar meu talento e minhas habilidades. Com as experiências adquiridas ao longo dos meus estágios,  procuro agora uma chance de efetivação na minha área de conhecimento.</string>
+    <string name="fln_about_academic_title">Formação Acadêmica</string>
+    <string name="fln_about_academic_content">Em andamento - Ciência da Computação - 5° período.
+        Universidade Católica de Pernambuco -UNICAP</string>
+
+
+
 
 
 
