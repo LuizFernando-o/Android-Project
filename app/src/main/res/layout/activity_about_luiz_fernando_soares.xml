@@ -12,23 +12,25 @@
         android:id="@+id/imageView"
         android:layout_width="261dp"
         android:layout_height="213dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/fernandoS"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fernando_s"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="379dp"
         android:layout_height="42dp"
+        android:layout_marginTop="70dp"
         android:text="Luiz Fernando Ximenes Accioly"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.656"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="67dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"

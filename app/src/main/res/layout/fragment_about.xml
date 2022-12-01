@@ -11,7 +11,7 @@
         android:id="@+id/about_img_fln"
         android:layout_width="127dp"
         android:layout_height="127dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +22,7 @@
         android:id="@+id/textView5"
         android:layout_width="221dp"
         android:layout_height="43dp"
+        android:fontFamily="@font/bebas_neue"
         android:text="Luiz Fernando Leite"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -40,13 +41,12 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/fernando_s_avatar" />
 
     <ImageView
         android:id="@+id/about_img_lfl"
         android:layout_width="127dp"
         android:layout_height="127dp"
-        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +58,7 @@
         android:layout_width="283dp"
         android:layout_height="53dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/bebas_neue"
         android:text="Fábio Lucas Nascimento"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -72,6 +73,7 @@
         android:layout_width="221dp"
         android:layout_height="43dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/bebas_neue"
         android:text="Luiz fernando Soares"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -83,10 +85,11 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="331dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:text="Saiba mais sobre os desenvolvedores do app"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Saiba mais sobre os desenvolvedores do Portal do Potter"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"

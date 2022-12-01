@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Portal do Potter</string>
+    <string name="title_activity_main">Portal do Potter</string>
 
     <!-- about Luiz Fernando Leite -->
     <string name="lfl_about_name">Luiz Fernando Leite</string>
@@ -14,7 +15,6 @@
     <string name="lfl_about_curiosities">Curiosidades</string>
     <string name="lfl_about_curiositiesDesc1">No ano de 2018 lancei um álbum com minha banda chamada Vulgo Esperto. Com uma proposta despretenciosa, nosso estilo se encontra entre uma pegada punk skate rock e rap. Ouça abaixo alguns trechos de algumas músicas.</string>
     <string name="lfl_about_curiositiesDesc2">Caso queira ouvir o álbum completo, ele encontra-se disponível em todas as plataformas digitais de distribuição, ouça em: https://open.spotify.com/album/7yuvU4s00JcxtGTVCaRtA0?si=Yx4W7s1TT-WCUNaQ660lgw&amp;utm_source=copy-link </string>
-    <string name="lfl_about_curiositiesDesc3">Curiosidades3</string>
     <string name="lfl_about_hobbies">Hobbies</string>
     <string name="lfl_about_hobbiesDesc">Há várias coisas que gosto de fazer, como jogar alguns jogos, ouvir um audiobook, assistir animes, filmes e séries. Mas, sem dúvidas, tocar minhas músicas preferidas é meu maior hobbie. Seja violão ou guitarra, todo dia estou tocando alguma coisa no meu tempo livre. </string>
 
@@ -28,10 +28,18 @@
     <string name="fln_about_academic_content">Em andamento - Ciência da Computação - 5° período.
         Universidade Católica de Pernambuco -UNICAP</string>
 
+    <string name="fln_about_qualifications">Cursos e Qualificações</string>
+    <string name="fln_about_qualifications_content">
+        Montagem e Manutenção de Computadores - SENAI PE
+        Técnico em Eletrônica - Instituto Federal de Pernambuco
+        BootCamp Java: Programação orientada a objetos - Plataforma DIO
+        Intermediate English - Duolingo Level Test
+    </string>
+    <string name="fln_about_hobbies">Hobbies</string>
+    <string name="fln_about_hobbies_content">No meu tempo livre , gosto de jogar videogame e assistir animes. Meu jogo favorito é a franquia God of War e meu anime favorito é Shingeki no Kyokin. Também gosto de passar meu tempo livre com minha família viajando , minha viagem mais recente foi para Porto de Galinhas , um belo lugar.</string>
+
     <!-- about Luiz Fernando Ximenes Accioly -->
     <string name="xxx_about_xxx">Sou estudante de Ciência da computação, UNICAP, atualmente cursando o 5° período. Também estagio com Redes de computadores e Segurança. Nas horas livres gosto de assistir vídeos no Youtube e ir para a academia.</string>
-
-
 
 
     <!-- strings Characters -->
@@ -67,7 +75,6 @@
     <string name="descr_character_15">Casa: Grifinória\nData de nascimento: 10/03/1960</string>
     <string name="title_character_16">Severus Snape</string>
     <string name="descr_character_16">Casa: Sonserina\nData de nascimento: 09/01/1960</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Inicio</string>
     <string name="title_characters">Personagens</string>
     <string name="title_spells">Magias</string>
