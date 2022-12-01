@@ -45,7 +45,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/fln_about_email"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -55,19 +57,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/fln_about_call"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="129dp"
-        android:layout_height="30dp"
+        android:layout_width="137dp"
+        android:layout_height="39dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="112dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/fln_about_name"
-        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
