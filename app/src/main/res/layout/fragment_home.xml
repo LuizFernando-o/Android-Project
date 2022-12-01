@@ -1,17 +1,361 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hp_bg_2"
-    tools:context=".HomeFragment">
+    android:background="@drawable/hp_bg_2">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="425dp"
-        android:layout_height="500dp"
-        app:srcCompat="@drawable/portal_do_potter"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="62dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_spell_"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_20"
+            app:srcCompat="@drawable/hp_book7" />
+
+        <ImageView
+            android:id="@+id/img_spell_17"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_18"
+            app:srcCompat="@drawable/hp_book1" />
+
+        <ImageView
+            android:id="@+id/img_spell_18"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_19"
+            app:srcCompat="@drawable/hp_book5" />
+
+        <ImageView
+            android:id="@+id/img_spell_19"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_21"
+            app:srcCompat="@drawable/hp_book4" />
+
+        <ImageView
+            android:id="@+id/img_spell_20"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_18"
+            app:srcCompat="@drawable/hp_book6" />
+
+        <ImageView
+            android:id="@+id/img_spell_21"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_22"
+            app:srcCompat="@drawable/hp_book3" />
+
+        <ImageView
+            android:id="@+id/img_spell_22"
+            android:layout_width="92dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_spell_17"
+            app:srcCompat="@drawable/hp_book2" />
+
+        <TextView
+            android:id="@+id/txt_title_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:fontFamily="@font/bebas_neue"
+            android:text="@string/title_home_1"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/txt_title_17"
+            android:layout_width="304dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/bebas_neue"
+            android:gravity="center_horizontal"
+            android:text="@string/title_home_2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_" />
+
+        <TextView
+            android:id="@+id/txt_title_18"
+            android:layout_width="181dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bebas_neue"
+            android:gravity="center"
+            android:text="@string/title_home_3"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_17" />
+
+        <TextView
+            android:id="@+id/txt_title_19"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_17" />
+
+        <TextView
+            android:id="@+id/txt_title_21"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_22" />
+
+        <TextView
+            android:id="@+id/txt_title_23"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_3"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_21" />
+
+        <TextView
+            android:id="@+id/txt_title_25"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_4"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_19" />
+
+        <TextView
+            android:id="@+id/txt_title_27"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_5"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_18" />
+
+        <TextView
+            android:id="@+id/txt_title_29"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_6"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_20" />
+
+        <TextView
+            android:id="@+id/txt_title_31"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/title_book_7"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toTopOf="@+id/img_spell_" />
+
+        <TextView
+            android:id="@+id/txt_title_33"
+            android:layout_width="257dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_32" />
+
+        <TextView
+            android:id="@+id/txt_title_20"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_1"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_19" />
+
+        <TextView
+            android:id="@+id/txt_title_22"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_2"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.433"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_21" />
+
+        <TextView
+            android:id="@+id/txt_title_24"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_3"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.433"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_23" />
+
+        <TextView
+            android:id="@+id/txt_title_26"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_4"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.433"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_25" />
+
+        <TextView
+            android:id="@+id/txt_title_28"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_6"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_29" />
+
+        <TextView
+            android:id="@+id/txt_title_32"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_7"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_31" />
+
+        <TextView
+            android:id="@+id/txt_title_30"
+            android:layout_width="252dp"
+            android:layout_height="120dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/descr_book_5"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_spell_17"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_27" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="338dp"
+            android:layout_height="368dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/portal_do_potter" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
