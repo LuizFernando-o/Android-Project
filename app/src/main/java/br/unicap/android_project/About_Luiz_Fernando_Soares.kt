@@ -14,7 +14,7 @@ class About_Luiz_Fernando_Soares : AppCompatActivity() {
 
         binding = ActivityAboutLuizFernandoSoaresBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.backButtonLFS.setOnClickListener { back() }
+
 
     }
     private fun back(){
