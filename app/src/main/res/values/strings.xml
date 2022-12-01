@@ -27,10 +27,16 @@
     <string name="fln_about_academic_title">Formação Acadêmica</string>
     <string name="fln_about_academic_content">Em andamento - Ciência da Computação - 5° período.
         Universidade Católica de Pernambuco -UNICAP</string>
-
-
-
-
+    <string name="fln_about_qualifications">Cursos e Qualificações</string>
+    <string name="fln_about_qualifications_content">
+        Montagem e Manutenção de Computadores - SENAI PE
+        Técnico em Eletrônica - Instituto Federal de Pernambuco
+        BootCamp Java: Programação orientada a objetos - Plataforma DIO
+        Intermediate English - Duolingo Level Test
+    </string>
+    <string name="fln_about_hobbies">Hobbies</string>
+   <string name="fln_about_hobbies_content">No meu tempo livre , gosto de jogar videogame e assistir animes. Meu jogo favorito é a franquia God of War e meu anime favorito é Shingeki no Kyokin. Também gosto de passar meu tempo livre com minha família viajando , minha viagem mais recente foi para Porto de Galinhas , um belo lugar.
+       </string>
 
 
     <!-- strings Characters -->
